@@ -1,0 +1,93 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.section-center{
+    text-align: center;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+    margin: 25px auto;
+    color:maroon;
+}
+
+#grocery{
+    width: 80%;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+    padding: 5px;
+    background-color:rgb(185, 238, 229);
+}
+
+.submit-btn{
+    margin-left: -5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: black;
+    background: transparent;
+}
+
+.submit-btn:active{
+    border: 2px solid red;
+}
+
+.grocery-container{
+    height: auto;
+    margin: 25px auto 0 auto;
+    width: 70%;
+    display: none;
+}
+
+.show-container{
+    display: block;
+}
+
+.del{
+    display: none;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clear-btn{
+    margin: 20px auto;
+}
+
+.alert{
+    width: 30%;
+    margin: 25px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.alert-success{
+    background-color: greenyellow;
+}
+
+.alert-danger{
+    background-color:rgb(209, 66, 30)
+}
