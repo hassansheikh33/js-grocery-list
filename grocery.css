@@ -1,15 +1,15 @@
-body{
-    background-color: aqua;
+body {
+    background-color: #1d2630;
     font-family: sans-serif;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-.section-center{
+.section-center {
     text-align: center;
-    background-color: white;
-    position:absolute;
+    background-color: whitesmoke;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -19,75 +19,90 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h2{
+h2 {
     margin: 25px auto;
-    color:maroon;
+    color: maroon;
 }
 
-#grocery{
+#grocery {
     width: 80%;
-    border: 2px solid darkblue;
+    border: 2px solid black;
     border-radius: 4px;
     padding: 5px;
-    background-color:rgb(185, 238, 229);
 }
 
-.submit-btn{
+.submit-btn {
     margin-left: -5px;
-    background-color: black;
-    color: white;
-    border-radius: 4px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
     padding: 5px;
     font-size: 15px;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background-color: white;
     color: black;
     background: transparent;
 }
 
-.submit-btn:active{
+.submit-btn:active {
     border: 2px solid red;
 }
 
-.grocery-container{
+.grocery-container {
     height: auto;
     margin: 25px auto 0 auto;
     width: 70%;
     display: none;
 }
 
-.show-container{
+.show-container {
     display: block;
 }
 
-.del{
+.del {
     display: none;
 }
 
-article{
+article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 1.2rem;
 }
 
-.clear-btn{
-    margin: 20px auto;
-}
-
-.alert{
+.alert {
     width: 30%;
     margin: 25px auto;
     padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
 }
 
-.alert-success{
+.alert-success {
     background-color: greenyellow;
 }
 
-.alert-danger{
-    background-color:rgb(209, 66, 30)
+.alert-danger {
+    background-color: rgb(209, 66, 30)
+}
+
+.edit-btn,
+.delete-btn,
+.clear-btn {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px 7px;
+    border: none;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.clear-btn {
+    margin: 20px auto;
+    background-color: red;
 }
